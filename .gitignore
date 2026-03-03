@@ -1,0 +1,47 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# Environment and secrets - NEVER COMMIT
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Generated reports
+reports/
+*.pdf
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Pathway cache
+.PathwayCache/
+.pathway_persist/
+
+# Demo outputs
+demo_output.json
+
+# Pytest cache
+.pytest_cache/
+
+# Misc
+.DS_Store
+Thumbs.db
+*.log
+backend/logs/
+!backend/logs/.gitkeep
